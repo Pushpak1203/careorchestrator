@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <div className="py-16"><h1 className="text-5xl font-bold tracking-tight">CareOrchestrator</h1><p className="mt-4 max-w-2xl text-lg text-slate-600">A multi-agent AI orchestration layer for proactive chronic disease monitoring, patient outreach, clinical escalation, and caregiver coordination.</p><Link className="mt-8 inline-block rounded-lg bg-slate-900 px-5 py-3 font-medium text-white" href="/dashboard">Open dashboard</Link></div>}
